@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "apexcharts": "^3.42.0",
+    "mapbox-gl": "^2.15.0",
+    "solid-apexcharts": "^0.3.2",
+    "solid-js": "^1.7.8",
+    "solid-map-gl": "^1.9.5",
+    "tw-elements": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
